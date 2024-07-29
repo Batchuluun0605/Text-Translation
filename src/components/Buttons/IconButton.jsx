@@ -1,0 +1,10 @@
+const IconButton = ({ Icon, onClick }) => (
+  <span
+    className="cursor-pointer flex items-center space-x-2"
+    onclick={onClick}
+  >
+    <Icon size={22} />
+  </span>
+);
+
+export default IconButton;
