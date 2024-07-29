@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { OpenAI } from "openai";
+import dotenv from "dotenv";
 
+dotenv.config();
 const openai = new OpenAI({
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
   dangerouslyAllowBrowser: true,
