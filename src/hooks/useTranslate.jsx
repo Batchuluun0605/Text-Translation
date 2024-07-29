@@ -7,7 +7,7 @@ const openai = new OpenAI({
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
   dangerouslyAllowBrowser: true,
 });
-
+("hell");
 // sk - proj - i7SOYTNgu918RXFWJ8a2T3BlbkFJK6mULnt9a2OKlsIf1JhF;
 const useTranslate = (sourceText, selectedLanguage) => {
   const [targetText, setTargetText] = useState("");
