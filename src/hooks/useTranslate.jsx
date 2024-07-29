@@ -8,6 +8,7 @@ const openai = new OpenAI({
   dangerouslyAllowBrowser: true,
 });
 
+// sk - proj - i7SOYTNgu918RXFWJ8a2T3BlbkFJK6mULnt9a2OKlsIf1JhF;
 const useTranslate = (sourceText, selectedLanguage) => {
   const [targetText, setTargetText] = useState("");
 
